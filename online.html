@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+    <script
+src="https://kit.fontawesome.com/abc5642aaf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta charset="UTF-8">
+    <title>TEMPLATES</title>
+    
+</head>
+<script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+</script>
+<style>
+    
+    body{
+          font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    }
+    .img{
+    margin-left:-1%;
+    width:101.3%;
+    height:1100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+        background-image:url("card.jpg")
+    }
+    .top{
+    margin-left:-1%;
+        background-color:#000;
+        width:101.3%;
+        height:80px;
+    }
+    .links {
+    margin-left:35%;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        display:block;
+    }
+    ul{
+        display: inline-block;
+    }
+    ul li{
+        list-style-type:none;
+    }
+    ul li a{
+    background-color:#000;
+    color:#fff;
+    font-size:30px;
+    text-align:right;
+    margin-top:4%;
+        text-decoration:none;
+        color:#fff;
+    }
+    .fa-bars{
+        display:none;
+    }
+  .nav{
+      display:none;
+  }
+  .cat{
+  font-size:40px;
+      margin-left:25%;
+  }
+ 
+ .strong{
+     margin-left:0.4%;
+     background-color:gold;
+     border-radius:10px;
+     padding:15px 10px;
+ } 
+ .me{
+
+ margin-top:10%;
+ margin-left:-5%;
+ gap:10em;
+     display:flex;
+     flex wrap:wrap;
+     justify-content:center;
+ }
+  .me img{
+  border-radius:20px;
+  border:1px solid #41414141;
+      width:800px;
+  }
+  .me p{
+      font-size:40px;
+  }
+  .price{
+      margin-left:20%;
+  }
+  .header{
+      margin-top:25%;
+      margin-left:25%;
+      font-size:50px;
+  }
+  
+  
+  
+  
+  
+    @media screen and (max-width:600px){
+
+body{
+      font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+   
+    .nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: 9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ccc;
+}
+.nav a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px
+}
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+ }
+ .fa-bars{
+ margin-top:-2%;
+ color:#fff;
+ display:block;
+     position: absolute;
+ }
+
+        .links{
+            display:none;
+        }
+        .nav{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+            display:block;
+        }
+        .top{
+        margin-left:-2.5%;
+        width:113.3%;
+            margin-top:-14%;
+        }
+        .cat{
+        
+        margin-top:9%;
+            font-size:15px;
+        }
+        .strong{
+        border-radius:7px;
+            padding:10px 5px;
+        }
+        .me{
+        margin-left:5%;
+            gap:2em;
+        }
+        .me img{
+        border-radius:10px;
+            width:170px;
+        }
+        .me p{
+            font-size:15px;
+        }
+        .price{
+            margin-left:5%;
+        }
+        .status{
+            font-weight:bold;
+            margin-top:-5%;
+        }
+        .header{
+        margin-left:-1%;
+            margin-top:20%;
+            font-size:20px;
+        }
+    }
+    
+    @media screen and (min-width:768px) and (max-width:900px){
+        .top{
+            width:130%;
+        }
+        .links{
+        margin-left:4%;
+            
+        }
+        ul a{
+            font-size:15px;
+        }
+        .me{
+        margin-left:3%;
+            gap:2em;
+        }
+        .me img{
+       border-radius:10px;
+            width:300px;
+        }
+        .me P{
+            font-size:24px;
+        }
+        .price{
+            margin-left:30%;
+        }
+        .status{
+            font-weight:bold;
+            margin-top:-6%;
+        }
+        .header{
+        margin-top:20%;
+        margin-left:15%;
+            font-size:30px;
+        }
+    }
+  
+</style>
+<body>
+    <section class="moblie">
+        <div id="content">
+
+    <span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </span>
+
+    <div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="#">HOME</a>
+      <a href="#">SERVICES</a>
+      <a href="#">ABOUT US</a>
+      <a  href="#">TEMPLATE</a>
+      <a href="#">FREE TEMPLATE</a>
+    </div>
+
+  </div>
+  
+
+    </section>
+    
+    
+   
+<section id="top" class="top">
+    <div class="links">
+        <ul><li><a href="">HOME</a></li></ul>
+        <ul><li><a href="">SERVICES</a></li></ul>
+        
+        <ul><li><a href="">TEMPLATES</a></li></ul>
+        <ul><li><a href="">LANDING PAGES</a></li></ul>
+    </div>
+</section>
+
+
+  <span>
+      <div>
+          <div class="cat">
+              <p>CATEGORY:<strong class="strong">E-commerce</strong></p>
+          </div>
+      </div>
+  </span>
+  
+  <div>
+        <div class="me">
+            <div>
+                <div>
+                    <img src="sample.jpg" alt="">
+                </div>
+                <p>ONLINE STORE WEBSITE <strong class="price">price : 35 000</strong> <br><p class="status">Status: AVAILABLE</p></p>
+            </div>
+            <div>
+                <div>
+                    <img src="sample2.jpg" alt="">
+                </div>
+                <p>ONLINE STORE WEBSITE <strong class="price">price : 00 000</strong><br><p class="status">Status : UNAVAILABLE</p></p>
+            </div>
+        </div
+    
+   <center>
+       <h1 class="header"> MORE TEMPLATES HAVEN'T BEEN UPLOADED</h1>
+   </center>
+</body>
+
+<script>
+    alert("Click On The Template of Your choice ")
+</script>
+</html>
