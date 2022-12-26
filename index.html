@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+    <script
+src="https://kit.fontawesome.com/abc5642aaf.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    
+</head>
+<script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+</script>
+<style>
+     * {
+ 
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+    height:100px;
+    margin-top:auto;
+    background-color:black;
+}
+.p-tag{
+font-size:50px;
+     font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+margin-left:45%;
+    color:#fff;
+}
+
+    .img{
+    margin-left:-1%;
+    width:101.3%;
+    height:1100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+        background-image:url("card.jpg")
+    }
+    .top{
+    margin-left:-1%;
+        background-color:#000;
+        width:101.3%;
+        height:80px;
+    }
+    .links {
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        display:block;
+    }
+    ul{
+        display: inline-block;
+    }
+    ul li{
+        list-style-type:none;
+    }
+    ul li a{
+    background-color:#000;
+    color:#fff;
+    font-size:30px;
+    text-align:right;
+    margin-top:4%;
+        text-decoration:none;
+        color:#fff;
+    }
+    .flip{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    font-size:80px;
+        color:#fff;
+    }
+    .writings{
+    margin-top:-40%;
+    position:absolute;
+        margin-left:2%;
+    }
+    
+    .about{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    height:1500px;
+    background-color:#000;
+        margin-top:60%;
+        margin-left:-1%;
+        width:101.3%;
+        
+    }
+    
+    .about p{
+    position: absolute;
+    margin-top:10%;
+    margin-left:10%;
+    color:#fff;
+    font-size:70px;
+    width:80%;
+    }
+    .tag2{
+   font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    font-weight:bold;
+    font-size:90px;
+    position:absolute;
+    margin-left:9%;
+        color:#ffff;
+    }
+    
+    .move a{
+    margin-left:-10%;
+    cursor:pointer;
+    padding:25px 20px;
+    color:#fff;
+    font-size:60px;
+    text-decoration:none;
+    position: absolute;
+    margin-top:35%;
+    border-radius:21px;
+    font-weight:bold;
+        background-color:red;
+    }
+    .container{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    margin-top:10%;
+    border-radius:30px;
+    border:1px solid gray;
+    margin-left:3%;
+    width:850px;
+    height:1000px;
+        background-color:#4141;
+    }
+    .container2{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-top:-41%;
+    border-radius:30px;
+    border:1px solid gray;
+    margin-left:56%;
+    width:850px;
+    height:1000px;
+        background-color:#4141;
+    }
+    .container2 img{
+         position: absolute;
+    margin-left:8%;
+    margin-top:12%;
+        width:400px;
+    }
+    .container2 p{
+        width:80%;
+    margin-left:10%;
+   margin-top:90%;
+        font-weight:bold;
+        font-size:40px;
+    }
+    .container img{
+    position: absolute;
+    margin-left:8%;
+    margin-top:12%;
+        width:400px;
+    }
+    .container p{
+    width:80%;
+    margin-left:7%;
+   margin-top:90%;
+        font-weight:bold;
+        font-size:40px;
+    }
+    .container3{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-top:10%;
+    border-radius:30px;
+    border:1px solid gray;
+    margin-left:30%;
+    width:850px;
+    height:1000px;
+        background-color:#4141;
+    }
+   .container3 img{
+        position: absolute;
+    margin-left:8%;
+    margin-top:12%;
+        width:400px;
+   }
+   .container3 p{
+       width:80%;
+    margin-left:7%;
+   margin-top:90%;
+        font-weight:bold;
+        font-size:40px;
+   }
+    .reason{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    font-size:80px;
+        margin-left:15%;
+    }
+    .friendly{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    margin-top:4%;
+    font-weight:bold;
+    font-size:60px;
+        margin-left:6%;
+    }
+    .nav{
+        display:none;
+    }
+    .fa-bars{
+        display:none;
+    }
+    
+    .product{
+    margin-top:10%;
+        background-color:#000;
+        margin-left:-1%;
+        width:101.3%;
+        height:1500px;
+    }
+    .product img{
+          
+        width:400px;
+    }
+   .product p{
+   font-size:50px;
+   font-weight:bold;
+       color:#fff;
+   }
+   .product h1{
+   margin-left:40%;
+   font-size:50px;
+       color:#fff;
+   }
+   .buy{
+   margin-left:-20%;
+   cursor:pointer;
+   border-radius:5px;
+   font-size:50px;
+       color:#000;
+       background-color:gold;
+       padding:20px 70px;
+       text-decoration:none;
+   }
+   .sell{
+   border-radius:5px;
+   font-size:50px;
+   margin-left:5%;
+   margin-top:-0.95%;
+   color:#000;
+   padding:20px 30px;
+   cursor:pointer;
+   background-color:gold;
+   text-decoration:none;
+       position:absolute;
+   }
+   .stats{
+   width:1500px;
+       margin-top:30%;
+   }
+   .comment{
+   margin-left:6%;
+       margin-top:20%;
+   }
+   .comment img{
+   border-radius:300px;
+       width:500px;
+   }
+   .comment p{
+       font-weight:bold;
+       font-size:40px;
+   }
+
+footer{
+width:101.3%;
+margin-left:-1%;
+height:300px;
+    background-color:#000;
+}
+.res{
+
+position: absolute;
+margin-left:40%;
+margin-top:5%;
+    color:#fff;
+    font-size:40px;
+}
+.dummy{
+position: absolute;
+    background-color:#000;
+    width:103.8%;
+    margin-left:-3.15%;
+    margin-top:10%;
+    height:100px;
+}
+
+
+    @media screen and (max-width:600px){
+
+
+.p-tag{
+margin-left:28%;
+font-size:15px;
+    color:#fff;
+}
+    .nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: #ccc;
+}
+.nav a:hover {
+	color: #fff;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px
+}
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+#content {
+	padding: 20px;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+ }
+ .fa-bars{
+ margin-top:-2%;
+ color:#fff;
+ display:block;
+     position: absolute;
+ }
+
+        .links{
+            display:none;
+        }
+        .nav{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+            display:block;
+        }
+        .top{
+        margin-left:-2.5%;
+        width:115%;
+            margin-top:-14%;
+        }
+        footer{
+             font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-top:10%;
+        height:100px;
+            margin-left:-2.5%;
+            width:115%;
+        }
+        
+        .writings{
+        margin-left:1%;
+        position: absolute;
+        margin-top:-109.4%;
+            display:block;
+        }
+        .flip{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+            font-size:30px;
+        }
+        .reason{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        font-size:15px;
+        margin-left:16%;
+            display:block;
+        }
+        .about p{
+        margin-top:50%;
+        width:80%;
+            font-size:15px;
+        }
+        .about a{
+        padding:10px 10px;
+        margin-left:35%;
+        border-radius:10px;
+        margin-top:99%;
+        font-size:20px;
+            display:block;
+        }
+        .tag2{
+            font-size:40px;
+        }
+        .about{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        height:500px;
+        margin-left:-2.5%;
+        width:115.1%;
+            display:block;
+        }
+        .friendly{
+        margin-left:20%;
+        font-size:15px
+        }
+        .container{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-left:13%;
+        width:300px;
+        height:300px;
+            display:block;
+        }
+        .container p{
+        margin-left:4%;
+        margin-top:65%;
+            font-size:15px;
+            width:95%;
+        }
+        .container img{
+      
+        margin-top:15%;
+        margin-left:20%;
+        position: absolute;
+            width:120px;
+        }
+        .container2{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-top:10%;
+        margin-left:13%;
+        width:300px;
+        height:300px;
+            display:block;
+            
+        }
+        .container2 img{
+            margin-top:15%;
+        margin-left:20%;
+        position: absolute;
+            width:120px;
+        }
+        .container2 p{
+        margin-left:4%;
+            margin-top:65%;
+            font-size:15px;
+            width:90%;
+        }
+        .container3{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-top:10%;
+            margin-left:13%;
+        width:300px;
+        height:300px;
+            display:block;
+        }
+        .container3 img{
+            margin-top:15%;
+        margin-left:20%;
+        position: absolute;
+            width:120px;
+        }
+        .container3 p{
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-left:4%;
+            margin-top:65%;
+            font-size:15px;
+            width:90%;
+        }
+        .img{
+        background-size:cover;
+        background-repeat:no-repeat;
+        width:117%;
+        margin-left:-4.5%;
+        height:450px;
+            display:block;
+        }
+        .product{
+        margin-top:10%;
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+        margin-left:-2.5%;
+        width:115.1%;
+            background-color:#000;
+            height:700px;
+        }
+        .product h1{
+        font-size:20px;
+        margin-left:27%;
+            color:#fff;
+        }
+        .product p{
+        color:#000;
+        font-size:15px;
+        margin-top:3%;
+        font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+            font-weight:bold;
+        }
+        .product img{
+        
+            width:100px;
+        }
+        .pclass{
+        
+        border:2px solid gray;
+        border-radius:30px;
+        width:300px;
+        height:400px;
+            background-color:#fff;
+        }
+     
+        .buy{
+        font-size:15px;
+            background-color:gold;
+            color:black;
+            position:absolute;
+            border-radius:30px;
+            margin-left:-32%;
+            text-decoration:none;
+            padding:10px 35px;
+        }
+      .sell{
+      font-size:15px;
+      border-radius:30px;
+      position:absolute;
+      margin-top:0.75%;
+          background-color:gold;
+          color:black;
+          margin-left:-3%;
+          text-decoration:none;
+          padding:10px 20px;
+      }
+      .stats{
+          width:400px;
+      }
+      .comment{
+          margin-top:20%;
+      }
+      .comment img{
+          width:200px;
+          border-radius:300px;
+      }
+      .comment p{
+          font-size:15px;
+      }
+    }
+    
+    @media screen and (max-width:900px) and (min-width:768px){
+    .img{
+    margin-left:-8%;
+     width:129%;
+    }
+    .top{
+        width:122%;
+    }
+    footer{
+    height:200px;
+        width:122%;
+    }
+    .p-tag{
+    margin-left:22%;
+        font-size:30px;
+    }
+    
+    .comment{
+        display:block;
+    }
+    .comment img{
+        width:400px;
+    }
+    .about{
+    width:122%;
+        display:block;
+    }
+   
+    
+    .about p{
+    width:100%;
+    margin-top:40%;
+        font-size:50px;
+    }
+    .about h1{
+        
+    }
+    .about a{
+    margin-left:6%;
+    margin-top:130%;
+        font-size:30px;
+    }
+        .stats{
+        margin-left:3%;
+        position:relative;
+        width:800px;
+            display:block;
+        }
+        .flip{
+        font-size:60px;
+            display:block;
+        }
+        
+        .container{
+        margin-left:18%;
+        width:600px;
+        height:800px;
+            display:block;
+        }
+        .container h1{
+        margin-left:15%;
+            text-align: center;
+            font-size:50px;
+        }
+        .container img{
+        
+        margin-top:20%;
+        margin-left:18%;
+            width:300px;
+        }
+        .container p{
+            font-size:40px;
+            width:90%;
+        }
+        .container2{
+        margin-left:18%;
+        margin-top:10%;
+            width:600px;
+        height:800px;
+            display:block;
+        }
+        .container2 h1{
+            margin-left:15%;
+            text-align: center;
+            font-size:50px;
+        }
+        .container2 img{
+            margin-top:20%;
+        margin-left:18%;
+            width:300px;
+        }
+        .container2 p{
+            font-size:40px;
+            width:90%;
+        }
+        .container3{
+        margin-left:18%;
+            width:600px;
+        height:800px;
+            display:block;
+        }
+        .container3 h1{
+            margin-left:15%;
+            text-align: center;
+            font-size:50px;
+        }
+        .container3 img{
+            margin-top:20%;
+        margin-left:18%;
+            width:300px;
+        }
+        .comtainer3 p{
+            font-size:40px;
+            width:90%;
+        }
+        .writings{
+        margin-top:-140%;
+            display: block;
+        }
+        .reason{
+            font-size:39px;
+            width:100%;
+        }
+        .product{
+            width:122%;
+        }
+        .product h1{
+            margin-left:20%;
+        }
+        .pclass img{
+            width:300px;
+        }
+        .pclass p{
+            font-size:30px;
+        }
+        .pclass a{
+            font-size:30px;
+        }
+        .buy{
+        margin-top:-1%;
+        padding:40px 70px;
+            position: absolute;
+            margin-left:-34%;
+        }
+        .sell{
+        width:25%;
+            position: absolute;
+            margin-left:7%;
+        }
+      
+    }
+    
+    @media screen and (max-width:1440px) and (min-width:1024px){
+        .img{
+            width:140%;    
+        }
+        .top{
+            width:140%;
+        }
+        .p-tag{
+             font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+            margin-left:30%;
+        }
+         footer{
+         height:300px;
+        width:140%;
+             font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+        .stats{
+        margin-left:30%;
+            width:1000px;
+        }
+        .writings{
+        margin-top:-90%;
+        position:absolute;
+            
+        }
+        .reason{
+        margin-left:33%;
+            font-size:42px;
+        }
+        .container{
+            width:900px;
+            height:900px;
+            margin-left:30%;
+        }
+        .container p{
+            margin-top:78%;
+        }
+        .container img{
+        margin-top:26%;
+            margin-left:22%;
+        }
+        .container h1{
+            margin-top:7%;
+            margin-left:18%;
+        }
+        .container2{
+        width:900px;
+        height:900px;
+        margin-top:10%;
+        margin-left:30%;
+            display:block;
+        }
+         .container2 p{
+            margin-top:78%;
+        }
+        .container2 img{
+        margin-top:26%;
+            margin-left:22%;
+        }
+        .container2 h1{
+            margin-top:7%;
+            margin-left:18%;
+        }
+        .container3{
+            width:900px;
+        height:900px;
+        margin-top:10%;
+        margin-left:30%;
+            display:block;
+        }
+         .container3 p{
+            margin-top:78%;
+        }
+        .container3 img{
+        margin-top:26%;
+            margin-left:22%;
+        }
+        .container3 h1{
+            margin-top:7%;
+            margin-left:18%;
+        }
+         .product{
+            width:140%;
+        }
+        .product p{
+        
+            font-size:30px;
+        }
+        .product h1{
+            margin-left:35%;
+        }
+        .product img{
+            width:300px;
+        }
+      .buy{
+      cursor:pointer;
+      margin-top:-0.95%;
+      font-size:30px;
+      margin-left:-22%;
+          position:absolute;
+      }
+      .sell{
+      cursor:pointer;
+      margin-left:-2%;
+      font-size:30px;
+          position:absolute;
+      }
+        .product{
+            font-size:10px;
+        }
+        .about{
+            width:140%;
+            
+        }
+        .about h1{
+            
+        }
+        .about p{
+        width:90%;
+        margin-left:19%;
+        font-size:50px;
+            margin-top:20%;
+        }
+        .about a{
+            margin-top:90%;
+            font-size:50px;
+        }
+        .comment{
+            margin-left:35%;
+        }
+        
+    }
+</style>
+<body>
+    <section class="moblie">
+        <div id="content">
+
+    <span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </span>
+
+    <div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <a href="#">HOME</a>
+      <a href="#">SERVICES</a>
+      <a href="#">ABOUT US</a>
+      <a href="online.html">TEMPLATE</a>
+      <a href="#">FREE TEMPLATE</a>
+    </div>
+
+  
+  </div>
+    </section>
+    
+    
+    <!-- mobile barrr -->
+<section id="top" class="top">
+    <div class="links">
+        <ul><li><a href="">HOME</a></li></ul>
+        <ul><li><a href="">SERVICES</a></li></ul>
+        <ul><li><a href="">ABOUT US</a></li></ul>
+        <ul><li><a href="online.html">TEMPLATES</a></li></ul>
+        <ul><li><a href="">LANDING PAGES</a></li></ul>
+    </div>
+</section>
+
+<section class="img">
+       
+    </section>
+    
+<section class="writings">
+    <h1 class="flip">THE <b style="color:red;">EASTBLOCK <br> FLIPPING</b> WEBSITE</h1>
+</section>
+
+
+
+<section>
+    <h1 class="reason">REASONS WHY YOU SHOULD GO WITH US?</h1>
+    <div>
+        <div class="container">
+            <h1 class="friendly">POCKET FRIENDLY</h1>
+            <img src="money.png" alt="">
+            <p>Our products are very affordable and pocket friendly get a landing page and a website for a very cheap rate, customer satisfaction is peak.</p>
+        </div>
+    </div>
+    <!-- container2 -->
+      <div>
+        <div class="container2">
+            <h1 class="friendly">FAST  &          
+  RELIABLE</h1>
+            <img src="deadline.png" alt="">
+            <p>We are 100% fast and very reliable when it comes to answering questions and selling templates we move with the speed of light. </p>
+        </div>
+    </div>
+    <!-- container 3 -->
+      <div>
+        <div class="container3">
+            <h1 class="friendly">AFFLIATE PROGRAM</h1>
+            <img src="affliation.png" alt="">
+            <p>If you're not interested in buying a template why not earn with our website as an affliate, sell a product and get a commission. </p>
+        </div>
+    </div>
+</section>
+
+<section class="product">
+    <h1 class="available">AVAILABLE PRODUCTS</h1>
+      <center>
+       <div>
+           <div class="pclass">
+               <p>E-commerce website</p>
+               <p>Languages used : <strong>HTML & CSS</strong></p>
+               <a href="product.jpg"><img src="product.jpg" alt=""></a>
+               <p class="price">Price <strong>: 35,000 naira</strong></p>
+               <a class="buy" href="">Buy</a>
+               <a class="sell" href="form.html">Sell This Product</a>
+           </div>
+       </div>
+       </center>
+</section>
+<center>
+    <img class="stats" src="stats.jpg" alt="">
+</center>
+<section class="about">
+   <h1 class="tag2">About Us</h1>
+        <p class="p2">The Eastblock Specializes In Selling Already Made Landing Pages. What Is A Landing Page? Well A Landing Page Is A  Standalone Web Page That Contains Information About A certain Company And Also Goods That Company Has To Sell. You Pick The Landing Page Of Your Choice We Modify It To Your Taste .. Great Now That We Are Done Go Search For The Landing Page Of Your Choice.</p>
+        <center class="move">
+            <a href="#top"> Continue search</a>
+        </center>
+</section>
+
+<section class="comment">
+    <center>
+        <div>
+            <div>
+                <p>Mario kasas:</p>
+                <img src="face2.jpg" alt="">
+            </div>
+            <p>Great Template , wow love it.</p>
+        </div>
+        <br>
+        <div>
+            <div>
+                <p>Maro culture:</p>
+                <img src="face2.jpg" alt="">
+            </div>
+            <p>The affliate program is my source of income thank you!</p>
+        </div>
+        <br>
+        <div>
+            <div>
+                <p>Abisha Mudia:</p>
+                <img src="face2.jpg" alt="">
+            </div>
+            <p>Great Work i must say Eastblock ng</p>
+        </div>
+        <br>
+        <div>
+            <div>
+                <p>Unknown:</p>
+                <img src="face2.jpg" alt="">
+            </div>
+            <p>You guys need to work on more templates smh</p>
+        </div>
+        <br>
+        <div>
+            <div>
+                <p>Akp..Ruona:</p>
+                <img src="face2.jpg" alt="">
+                <p>i have seen better...</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <div>
+                <p>Samuel Neo:</p>
+                <img src="face2.jpg" alt="">
+            </div>
+            <p>25 thousand naira through AFFLIATE PROGRAM! thank you</p>
+        </div>
+    </center>
+</section>
+
+<footer>
+      <p class="p-tag">All Rights Reserved © 2022</p>
+    </footer>
+
+</body>
+</html>
